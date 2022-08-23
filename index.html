@@ -6,86 +6,49 @@
   <title>木的主页</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
   <link rel="stylesheet" href="./style.css">
-
 </head>
 
 <body>
-  <div class="container-wrapper">
-    <h1>木糖不爱吃糖</h1>
-    <p id="subtitle">主页监修中。。。</p>
-    <div class="container">
-      <div class="circle-container">
-        <!-- 天空部分 -->
-        <div class="sky">
-          <div class="sky-night">
-            <div class="stars">
-              <div class="shooting-star"></div>
-              <div class="star-group-1"></div>
-              <div class="star-group-2"></div>
-              <div class="star-group-3"></div>
-              <div class="star-group-4"></div>
-            </div>
-          </div>
-
-          <!-- 云彩 -->
-          <div class="cloud cloud-1"></div>
-          <div class="cloud cloud-2"></div>
-          <div class="cloud cloud-3"></div>
-          <div class="cloud cloud-4"></div>
-          <div class="cloud cloud-5"></div>
-          <div class="cloud cloud-6"></div>
-          <div class="bird bird-1"></div>
-          <div class="bird bird-2"></div>
-          <div class="bird bird-3"></div>
-        </div>
-
-        <!-- 山川 -->
-        <div class="mountains">
-          <div class="mountain-back">
-            <div class="mountain-back-1"></div>
-            <div class="mountain-back-2"></div>
-          </div>
-          <div class="mountain-middle">
-            <div class="mountain-middle-1"></div>
-            <div class="mountain-middle-2"></div>
-          </div>
-          <div class="mountain-top">
-            <div class="mountain-top-1"></div>
-          </div>
-        </div>
-
-        <!-- 太阳 -->
-        <div class="sun-container">
-          <div class="sun"></div>
-        </div>
-
-        <!-- 海洋 -->
-        <div class="ocean">
-          <div class="boat"></div>
-          <div class="ocean-night">
-            <div class="moon"></div>
-
-            <!-- 山川 -->
-            <div class="mountains mountains-bottom">
-              <div class="mountain-back">
-                <div class="mountain-back-1"></div>
-                <div class="mountain-back-2"></div>
-              </div>
-              <div class="mountain-middle">
-                <div class="mountain-middle-1"></div>
-                <div class="mountain-middle-2"></div>
-              </div>
-              <div class="mountain-top">
-                <div class="mountain-top-1"></div>
-              </div>
-            </div>
-          </div>
+  <header class="cd-header">
+    <div class="header-wrapper">
+      <div class="logo-wrap">
+        <a href="#" class="hover-target"><span>M</span>U</a>
+      </div>
+      <div class="nav-but-wrap">
+        <div class="menu-icon hover-target">
+          <span class="menu-icon__line menu-icon__line-left"></span>
+          <span class="menu-icon__line"></span>
+          <span class="menu-icon__line menu-icon__line-right"></span>
         </div>
       </div>
     </div>
-    <p>@EvilMoOd<a href="https://evilmood.github.io/mublog" target="_blank">个人博客站点</a>
-    </p>
+  </header>
+
+  <div class="nav">
+    <div class="nav__content">
+      <ul class="nav__list">
+        <li class="nav__list-item active-nav"><a href="#" class="hover-target">HOME</a></li>
+        <li class="nav__list-item"><a href="https://evilmood.github.io/mublog/" target="_blank"
+            class="hover-target">BLOG</a></li>
+        <li class="nav__list-item"><a href="#" class="hover-target">news</a></li>
+        <li class="nav__list-item"><a href="#" class="hover-target">contact</a></li>
+      </ul>
+    </div>
   </div>
+
+  <div class="section full-height over-hide">
+    <div class="switch-wrap">
+      <h1>主页监修中</h1>
+      <div id="switch" class="hover-target">
+        <div id="circle"></div>
+      </div>
+      <p><span>dark</span> - <span>light</span></p>
+    </div>
+  </div>
+
+  <div class='cursor' id="cursor"></div>
+  <div class='cursor2' id="cursor2"></div>
+  <div class='cursor3' id="cursor3"></div>
   <!-- partial -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
