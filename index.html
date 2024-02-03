@@ -1,58 +1,247 @@
+<!--
+	别看源码啦啦啦~~~
+                      /^--^\     /^--^\     /^--^\
+                      \____/     \____/     \____/
+                     /      \   /      \   /      \
+                    |        | |        | |        |
+                     \__  __/   \__  __/   \__  __/
+|^|^|^|^|^|^|^|^|^|^|^|^\ \^|^|^|^/ /^|^|^|^|^\ \^|^|^|^|^|^|^|^|^|^|^|^|
+| | | | | | | | | | | | |\ \| | |/ /| | | | | | \ \ | | | | | | | | | | |
+########################/ /######\ \###########/ /#######################
+| | | | | | | | | | | | \/| | | | \/| | | | | |\/ | | | | | | | | | | | |
+|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|_|
+
+-->
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-cn">
 
 <head>
-  <meta charset="UTF-8">
-  <title>木的主页</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-  <link rel="stylesheet" href="./style.css">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" id="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/x-icon" href="https://blog.sunguoqi.com/upload/avatar.png">
+	<title>木の主页</title>
+	<link rel="apple-touch-icon-precomposed" href="images/avatar.bab2b7d4.jpeg">
+	<link rel="stylesheet" type="text/css" href="css/h.9c69ed6c.css">
+	<link rel="stylesheet" type="text/css" href="css/nekotora.99cf6f8c.css">
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-137340638-1"></script>
+	<script>
+		function a() {
+			dataLayer.push(arguments)
+		}
+		window.dataLayer = window.dataLayer || [], a("js", new Date), a("config", "UA-137340638-1");
+	</script>
 </head>
 
 <body>
-  <header class="cd-header">
-    <div class="header-wrapper">
-      <div class="logo-wrap">
-        <a href="#" class="hover-target"><span>M</span>U</a>
-      </div>
-      <div class="nav-but-wrap">
-        <div class="menu-icon hover-target">
-          <span class="menu-icon__line menu-icon__line-left"></span>
-          <span class="menu-icon__line"></span>
-          <span class="menu-icon__line menu-icon__line-right"></span>
-        </div>
-      </div>
-    </div>
-  </header>
+	<nav>
+		<a href="https://evilmood.github.io/" target="_blank" class="active">首页</a> <a class="clip"></a>
+		<a href="https://evilmood.github.io/mublog/" target="_blank">博客</a>
+		<a class="clip"></a> <a href="https://evilmood.github.io/FingerStyleMaster/" target="_blank">练琴</a>
+		<!-- <a class="clip"></a> <a href="https://www.sunguoqi.com/comments/" target="_blank">留言板</a> -->
+	</nav>
 
-  <div class="nav">
-    <div class="nav__content">
-      <ul class="nav__list">
-        <li class="nav__list-item active-nav"><a href="#" class="hover-target">HOME</a></li>
-        <li class="nav__list-item"><a href="https://evilmood.github.io/mublog/" target="_blank"
-            class="hover-target">BLOG</a></li>
-        <li class="nav__list-item"><a href="#" class="hover-target">news</a></li>
-        <li class="nav__list-item"><a href="#" class="hover-target">contact</a></li>
-      </ul>
-    </div>
-  </div>
+	<body>
+		<div class="background">
+			<canvas id="startrack"></canvas>
+			<div class="cover"></div>
+		</div>
+		<div class="main">
+			<div class="ch intro">
+				<div class="container">
+					<div class="hello">
+						<h1 id="slogan">摸鱼中...</h1>
+						<h2>
+							<div class="circle"> <span></span> <span></span>
+								<span></span>
+							</div>木糖不爱吃糖
+						</h2>
+					</div>
+				</div>
+			</div>
+			<div class="ch about">
+				<div class="container">
+					<h2 class="chtitle">Who am <span>木</span>？</h2>
+					<div class="clear">
+						<div class="introduct">
+							<img class="avatar"
+								src="https://avatars.githubusercontent.com/u/98245255?v=4">
+							<P style="padding-top:1em;">喜欢这片星空嘛，你是否也有做过在微风拂过的田野中仰望星空的梦呢</p>
+							<br>
+							<p>你好，这里是不会弹琴的木，一个正在不断变得更好的，可能还有点有趣的人
+							</p> <br>
+							<p>
+								人生不止如初见，珍惜每一个遇到的人，留下最美好的时光，最快乐的回忆<br>
+								<br>十年前我们仰望星空，十年后我们将俯视大地，未来的天空，必将为我们留下一片灿烂的曙光！
+							</p>
+							<div class="chatbox">
+								<div class="line loading"> <span></span>
+									<span></span> <span></span>
+								</div>
+							</div>
+						</div>
+						<ul class="skill clear">
+							<li>
+								<p>HTML5/CSS3/Typescript</p>
+								<div class="progress">
+									<div style="width:70%;"></div>
+									<span>制作网站程度的能力</span>
+								</div>
+							</li>
+							<li>
+								<p>APP/小程序</p>
+								<div class="progress">
+									<div style="width:20%;"></div>
+									<span>完全没怎么用的能力</span>
+								</div>
+							</li>
+							<li>
+								<p>吉他</p>
+								<div class="progress">
+									<div style="width:50%;"></div>
+									<span>触摸音乐的能力</span>
+								</div>
+							</li>
+							<li>
+								<p>音乐</p>
+								<div class="progress">
+									<div style="width:30%;"></div>
+									<span>如听仙乐耳暂明</span>
+								</div>
+							</li>
+              <li>
+								<p>篮球</p>
+								<div class="progress">
+									<div style="width:50%;"></div>
+									<span>迎面走来的你让我如此蠢蠢欲动</span>
+								</div>
+							</li>
+              <li>
+								<p>抽象</p>
+								<div class="progress">
+									<div style="width:50%;">
+									</div><span>最抽象的能力</span>
+								</div>
+							</li>
+							<li>
+								<p>魔法</p>
+								<div class="progress">
+									<div style="width:12%;"></div>
+									<span>和普通人相同程度的能力</span>
+								</div>
+							</li>
+							<li>
+								<p>恋爱能力</p>
+								<div class="progress">
+									<div style="width:10%;"></div>
+									<span>喜欢要勇敢追，不要错过后一个人听反方向的钟</span>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="find ch">
+				<div class="container links">
+					<h2 class="chtitle">阿木可能会出没的<span>地方</span></h2>
+					<div class="clear col-3">
+						<a href="https://juejin.cn/user/356675550720190" target="_blank">
+							<div class="item">
+								<div class="bg" style="background-color:#28a9e0"></div>
+								<div class="inner"> <span>掘金</span> </div>
+							</div>
+						</a>
+						<!-- <a href="https://www.cnblogs.com/sunguoqi/" target="_blank">
+							<div class="item">
+								<div class="bg" style="background-color:#28a9e0"></div>
+								<div class="inner"> <span>博客园</span> </div>
+							</div>
+						</a>
+						<a href="https://blog.sunguoqi.com/upload/qrcode.jpg" target="_blank">
+							<div class="item">
+								<div class="bg" style="background-color:#28a9e0"></div>
+								<div class="inner"> <span>微信公众号</span> </div>
+							</div>
+						</a> -->
+					</div>
+					<div class="clear">
+						<a href="https://music.163.com/#/user/home?id=353882446" target="_blank">
+							<div class="item">
+								<div class="bg" style="background-color:#e6162d"></div>
+								<div class="inner"> <i class="icon-netease_music"></i> <span>网易云音乐</span> </div>
+							</div>
+						</a>
+						<a href="https://github.com/EvilMoOd" target="_blank">
+							<div class="item">
+								<div class="bg" style="background-color:#353535"></div>
+								<div class="inner"> <i class="icon-github"></i> <span>Github</span> </div>
+							</div>
+						</a>
+						<a href="https://space.bilibili.com/29640844?spm_id_from=333.1007.0.0"
+							target="_blank">
+							<div class="item">
+								<div class="bg" style="background-color:#f9a2a8"></div>
+								<div class="inner"> <i class="icon-bilibili"></i>
+									<span>Bilibili</span>
+								</div>
+							</div>
+						</a>
 
-  <div class="section full-height over-hide">
-    <div class="switch-wrap">
-      <h1>主页监修中</h1>
-      <div id="switch" class="hover-target">
-        <div id="circle"></div>
-      </div>
-      <p><span>dark</span> - <span>light</span></p>
-    </div>
-  </div>
+						<!-- <a href="https://www.zhihu.com/people/sunguoqi" target="_blank">
+							<div class="item">
+								<div class="bg" style="background-color:#0f88eb"></div>
+								<div class="inner"> <i class="icon-zhihu"></i>
+									<span>知乎</span>
+								</div>
+							</div>
+						</a> -->
+					</div>
+				</div>
+			</div>
+			<div class="gate ch">
+				<div class="container links">
+					<h2 class="chtitle">近期<span>小目标</span></h2>
+          <div class="clear">
+            <div class="item">
+              <div class="inner">
+                <h5>生活</h5>
+                <p>按时吃饭，按时睡觉</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="inner">
+                <h5>恋爱</h5>
+                <p>遇见一个相伴一生的挚爱</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="inner">
+                <h5>弹琴</h5>
+                <p>学一下伍伍慧的BlueBird</p>
+              </div>
+            </div>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
 
-  <div class='cursor' id="cursor"></div>
-  <div class='cursor2' id="cursor2"></div>
-  <div class='cursor3' id="cursor3"></div>
-  <!-- partial -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
-  <script src="./script.js"></script>
-</body>
+		<div class="footer ch">
+			<div class="container">
+				<h3>木糖不爱吃糖</h3>
+				<p>山有木兮木有枝，心悦君兮君不知</p>
+				<p class="c"><a href="/" target="_blank">Say hello to me @ sunshine</a></p>
+			</div>
+		</div>
+		</div>
+		<script src="js/page.3a0791a3.js"></script>
+		<script type="text/javascript" src="js/stats.js" charset="UTF-8">
+		</script>
+
+		<audio autoplay>
+			<source src="https://api.uomg.com/api/rand.music?sort=热歌榜" type="audio/mpeg">
+		</audio>
+
+	</body>
 
 </html>
